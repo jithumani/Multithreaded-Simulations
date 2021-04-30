@@ -1,3 +1,4 @@
+package com.coffee.simulation;
 /**
  * Food is what is prepared by Cooks, and ordered by Customers.  Food
  * is defined by its name, and the amount of time it takes to prepare

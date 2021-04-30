@@ -1,3 +1,6 @@
+package com.coffee.simulation;
+
+
 import java.util.Collections;
 import java.util.ArrayList;
 import java.util.HashMap;
