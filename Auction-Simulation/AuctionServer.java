@@ -23,7 +23,12 @@ public class AuctionServer
 
 	public static AuctionServer getInstance()
 	{
-		return instance;
+		if (instance != null) {
+			return instance;
+		} else {
+			return new AuctionServer();
+		}
+
 	}
 
 	/* Singleton: End code that you SHOULD NOT CHANGE! */
